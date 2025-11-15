@@ -1,0 +1,26 @@
+/docs
+
+# Test and benchmark files
+test_*.db
+test_*.wal
+test_*.wal.meta
+bench_*.db
+bench_*.wal
+bench_*.wal.meta
+
+# Database files
+/internal/benchmark/*.db
+/internal/benchmark/*.wal
+/internal/benchmark/*.wal.meta
+
+/internal/bptree/*.db
+/internal/bptree/*.wal
+/internal/bptree/*.wal.meta
+
+# Binary files
+/bin/
+sharingan-db
+
+# IDE
+.vscode/
+.idea/
